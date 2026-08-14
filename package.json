@@ -32,6 +32,7 @@
     "class",
     "interface"
   ],
+  "icon": "./icon-256.png",
   "galleryBanner": {
     "color": "#1F2430",
     "theme": "dark"
