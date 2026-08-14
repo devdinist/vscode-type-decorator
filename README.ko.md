@@ -202,6 +202,11 @@ npx @vscode/vsce package     # .vsix 로컬 빌드
 npx @vscode/vsce publish     # 마켓플레이스 배포
 ```
 
+<br>
+<center>
+<a href='https://ko-fi.com/devdinist' target='_blank'><img height='36' style='border:0px;height:45px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+</center>
+
 ## 라이선스
 
 [MIT](LICENSE)
