@@ -1,0 +1,26 @@
+{
+  "description": "Show the top-level type of Java, C#, PHP and Swift files as a badge in the Explorer.",
+
+  "config.java.class": "Badge shown on Java `class` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.java.interface": "Badge shown on Java `interface` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.java.enum": "Badge shown on Java `enum` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.java.record": "Badge shown on Java `record` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.java.annotation": "Badge shown on Java `@interface` (annotation) files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+
+  "config.php.class": "Badge shown on PHP `class` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.php.interface": "Badge shown on PHP `interface` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.php.enum": "Badge shown on PHP `enum` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.php.trait": "Badge shown on PHP `trait` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+
+  "config.csharp.class": "Badge shown on C# `class` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.csharp.interface": "Badge shown on C# `interface` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.csharp.struct": "Badge shown on C# `struct` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.csharp.enum": "Badge shown on C# `enum` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.csharp.record": "Badge shown on C# `record` files. Both `record class` and `record struct` use this badge. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+
+  "config.swift.class": "Badge shown on Swift `class` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.swift.struct": "Badge shown on Swift `struct` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.swift.protocol": "Badge shown on Swift `protocol` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.swift.enum": "Badge shown on Swift `enum` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
+  "config.swift.actor": "Badge shown on Swift `actor` files. VS Code renders **at most 2 characters**. Leave empty to show no badge."
+}

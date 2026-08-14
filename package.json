@@ -1,0 +1,177 @@
+{
+  "name": "type-decorations",
+  "displayName": "Type Decorations",
+  "description": "%description%",
+  "version": "0.0.1",
+  "publisher": "REPLACE-WITH-YOUR-PUBLISHER-ID",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devdinist/vscode-type-decorator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devdinist/vscode-type-decorator/issues"
+  },
+  "homepage": "https://github.com/devdinist/vscode-type-decorator#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Visualization"
+  ],
+  "keywords": [
+    "java",
+    "csharp",
+    "php",
+    "swift",
+    "explorer",
+    "badge",
+    "decoration",
+    "class",
+    "interface"
+  ],
+  "galleryBanner": {
+    "color": "#1F2430",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "workspaceContains:**/*.java",
+    "workspaceContains:**/*.php",
+    "workspaceContains:**/*.cs",
+    "workspaceContains:**/*.swift"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Type Decorations",
+      "properties": {
+        "typeDeco.java.class": {
+          "type": "string",
+          "default": "C)",
+          "maxLength": 2,
+          "markdownDescription": "%config.java.class%"
+        },
+        "typeDeco.java.interface": {
+          "type": "string",
+          "default": "I)",
+          "maxLength": 2,
+          "markdownDescription": "%config.java.interface%"
+        },
+        "typeDeco.java.enum": {
+          "type": "string",
+          "default": "E)",
+          "maxLength": 2,
+          "markdownDescription": "%config.java.enum%"
+        },
+        "typeDeco.java.record": {
+          "type": "string",
+          "default": "R)",
+          "maxLength": 2,
+          "markdownDescription": "%config.java.record%"
+        },
+        "typeDeco.java.annotation": {
+          "type": "string",
+          "default": "@)",
+          "maxLength": 2,
+          "markdownDescription": "%config.java.annotation%"
+        },
+        "typeDeco.php.class": {
+          "type": "string",
+          "default": "C)",
+          "maxLength": 2,
+          "markdownDescription": "%config.php.class%"
+        },
+        "typeDeco.php.interface": {
+          "type": "string",
+          "default": "I)",
+          "maxLength": 2,
+          "markdownDescription": "%config.php.interface%"
+        },
+        "typeDeco.php.enum": {
+          "type": "string",
+          "default": "E)",
+          "maxLength": 2,
+          "markdownDescription": "%config.php.enum%"
+        },
+        "typeDeco.php.trait": {
+          "type": "string",
+          "default": "T)",
+          "maxLength": 2,
+          "markdownDescription": "%config.php.trait%"
+        },
+        "typeDeco.csharp.class": {
+          "type": "string",
+          "default": "C)",
+          "maxLength": 2,
+          "markdownDescription": "%config.csharp.class%"
+        },
+        "typeDeco.csharp.interface": {
+          "type": "string",
+          "default": "I)",
+          "maxLength": 2,
+          "markdownDescription": "%config.csharp.interface%"
+        },
+        "typeDeco.csharp.struct": {
+          "type": "string",
+          "default": "S)",
+          "maxLength": 2,
+          "markdownDescription": "%config.csharp.struct%"
+        },
+        "typeDeco.csharp.enum": {
+          "type": "string",
+          "default": "E)",
+          "maxLength": 2,
+          "markdownDescription": "%config.csharp.enum%"
+        },
+        "typeDeco.csharp.record": {
+          "type": "string",
+          "default": "R)",
+          "maxLength": 2,
+          "markdownDescription": "%config.csharp.record%"
+        },
+        "typeDeco.swift.class": {
+          "type": "string",
+          "default": "C)",
+          "maxLength": 2,
+          "markdownDescription": "%config.swift.class%"
+        },
+        "typeDeco.swift.struct": {
+          "type": "string",
+          "default": "S)",
+          "maxLength": 2,
+          "markdownDescription": "%config.swift.struct%"
+        },
+        "typeDeco.swift.protocol": {
+          "type": "string",
+          "default": "P)",
+          "maxLength": 2,
+          "markdownDescription": "%config.swift.protocol%"
+        },
+        "typeDeco.swift.enum": {
+          "type": "string",
+          "default": "E)",
+          "maxLength": 2,
+          "markdownDescription": "%config.swift.enum%"
+        },
+        "typeDeco.swift.actor": {
+          "type": "string",
+          "default": "A)",
+          "maxLength": 2,
+          "markdownDescription": "%config.swift.actor%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "npm run compile && node --test \"out/**/*.test.js\"",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.7.2"
+  }
+}

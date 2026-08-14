@@ -1,0 +1,26 @@
+{
+  "description": "Explorer에서 Java·C#·PHP·Swift 파일의 최상위 타입을 배지로 구분해 표시합니다.",
+
+  "config.java.class": "Java `class` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.java.interface": "Java `interface` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.java.enum": "Java `enum` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.java.record": "Java `record` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.java.annotation": "Java `@interface`(annotation) 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+
+  "config.php.class": "PHP `class` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.php.interface": "PHP `interface` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.php.enum": "PHP `enum` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.php.trait": "PHP `trait` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+
+  "config.csharp.class": "C# `class` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.csharp.interface": "C# `interface` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.csharp.struct": "C# `struct` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.csharp.enum": "C# `enum` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.csharp.record": "C# `record` 파일에 표시할 배지입니다. `record class`와 `record struct` 모두 이 배지를 씁니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+
+  "config.swift.class": "Swift `class` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.swift.struct": "Swift `struct` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.swift.protocol": "Swift `protocol` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.swift.enum": "Swift `enum` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다.",
+  "config.swift.actor": "Swift `actor` 파일에 표시할 배지입니다. VS Code 제한으로 **최대 2자**까지만 표시할 수 있습니다. 비워 두면 배지를 붙이지 않습니다."
+}
