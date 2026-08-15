@@ -1,5 +1,5 @@
 {
-  "description": "Show the top-level type of Java, C#, PHP and Swift files as a badge in the Explorer.",
+  "description": "Type icons for Java, C#, PHP and Swift files - marks every source file in the Explorer with a class, interface, enum, struct, record, protocol or trait badge.",
 
   "config.java.class": "Badge shown on Java `class` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",
   "config.java.interface": "Badge shown on Java `interface` files. VS Code renders **at most 2 characters**. Leave empty to show no badge.",

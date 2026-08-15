@@ -1,6 +1,8 @@
 .vscode/**
 sample/**
 src/**
+images/**
+**/*.vsix
 out/**/*.test.js
 out/**/*.map
 **/tsconfig.json

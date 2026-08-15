@@ -5,6 +5,18 @@ Java, C#, PHP, Swift를 지원합니다.
 
 English documentation: [README.md](README.md)
 
+![탐색기 배지](https://raw.githubusercontent.com/devdinist/vscode-type-decorator/master/images/all.png)
+
+배지에 마우스를 올리면 어떤 타입인지(`Class`, `Interface`, `Enum` …) 툴팁으로 보입니다.
+
+![배지 툴팁](https://raw.githubusercontent.com/devdinist/vscode-type-decorator/master/images/all.gif)
+
+다른 확장의 배지를 덮어쓰지 않습니다. git 상태나 문제(error·warning) 배지와 `, `로
+이어져 함께 표시되므로, 수정된 class 파일에 오류가 있으면 `M, C)`처럼 보입니다.
+자세한 내용은 [git 데코레이션과의 공존](#git-데코레이션과의-공존)을 참고하세요.
+
+![git·문제 배지와 함께 표시되는 모습](https://raw.githubusercontent.com/devdinist/vscode-type-decorator/master/images/mixed.gif)
+
 | 타입 | 배지 | Java | C# | PHP | Swift |
 | --- | --- | --- | --- | --- | --- |
 | `class` | `C)` | ✓ | ✓ | ✓ | ✓ |

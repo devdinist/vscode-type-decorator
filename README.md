@@ -5,6 +5,18 @@ Supports **Java, C#, PHP and Swift**.
 
 한국어 문서는 [README.ko.md](README.ko.md)를 참고하세요.
 
+![Explorer badges](https://raw.githubusercontent.com/devdinist/vscode-type-decorator/master/images/all.png)
+
+Hovering a badge shows what the type is — `Class`, `Interface`, `Enum`, …
+
+![Badge tooltip on hover](https://raw.githubusercontent.com/devdinist/vscode-type-decorator/master/images/all.gif)
+
+Badges from other providers are not replaced. Git status and problem markers keep
+showing, joined with `, ` — a modified class file with an error reads `M, C)`.
+See [Coexisting with git decorations](#coexisting-with-git-decorations).
+
+![Badges alongside git and problem decorations](https://raw.githubusercontent.com/devdinist/vscode-type-decorator/master/images/mixed.gif)
+
 | Type | Badge | Java | C# | PHP | Swift |
 | --- | --- | --- | --- | --- | --- |
 | `class` | `C)` | ✓ | ✓ | ✓ | ✓ |
